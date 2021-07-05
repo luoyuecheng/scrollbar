@@ -1,0 +1,58 @@
+.scrollbar {
+  position: relative;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.scrollbar .scrollbar__wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.scrollbar .scrollbar__bar {
+  position: absolute;
+  display: none;
+  border-radius: 3px;
+}
+
+.scrollbar .scrollbar__bar--horizontal {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 6px;
+}
+
+.scrollbar .scrollbar__bar--vertical {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 6px;
+}
+
+.scrollbar .scrollbar__thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(144, 147, 153, 0.3);
+  border-radius: 3px;
+  user-select: none;
+}
+
+.scrollbar .scrollbar__wrap--hidden-default {
+  scrollbar-width: none;
+}
+
+.scrollbar .scrollbar__wrap--hidden-default::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar .scrollbar__bar--show {
+  display: block;
+}
+
+.scrollbar:hover .scrollbar__bar {
+    display: block;
+}
