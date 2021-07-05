@@ -18,6 +18,10 @@ import Scrollbar from './Scrollbar';
 </div>
 ```
 
+### Javascript
+
+克隆目录，并执行`npm run tsc`命令，将生成的`build`目录中的`Scrollbar`目录复制到项目中。
+
 ### Previre
 
 ![Preview](./scrollbar.png)

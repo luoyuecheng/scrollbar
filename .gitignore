@@ -1,0 +1,4 @@
+# production
+/dist
+/.vscode
+/build
