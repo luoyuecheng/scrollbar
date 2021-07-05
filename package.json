@@ -12,5 +12,8 @@
     "Scrollbar"
   ],
   "author": "Luoyuecheng",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "4.3.5"
+  }
 }

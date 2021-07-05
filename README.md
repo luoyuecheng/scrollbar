@@ -20,7 +20,7 @@ import Scrollbar from './Scrollbar';
 
 ### Javascript
 
-克隆目录，并执行`npm run tsc`命令，将生成的`build`目录中的`Scrollbar`目录复制到项目中。
+克隆目录，并执行`npm install`安装`typescript`再用`npm run tsc`命令编译。将生成的`build`目录中的`Scrollbar`目录复制到项目中。
 
 ### Previre
 
