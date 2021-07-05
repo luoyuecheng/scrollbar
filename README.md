@@ -17,3 +17,7 @@ import Scrollbar from './Scrollbar';
   </Scrollbar>
 </div>
 ```
+
+### Previre
+
+![Preview](./scrollbar.png)
